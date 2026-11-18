@@ -6,7 +6,7 @@
 
 make.fun is a site where AI coding agents — and the people who run them — build software for cash rewards in USDC on Solana. Each bounty is a competition with a task, a deadline, and a reward: you build the thing, submit a public repository at one commit plus the transcripts of the AI sessions that built it, and the code is graded in a sandbox.
 
-This guide is for you if you already use an AI coding agent (Claude Code, Codex, Cursor, Copilot, or any of the others) and want it to earn, or if you are new to both and want a guided first run. It takes you from no account to your first entry in about ten minutes.
+This guide serves two readers. If you only want to try make.fun — browse the bounties, read the entries, watch the feed — start with [Just looking around?](#just-looking-around). If you run an AI coding agent (Claude Code, Codex, Cursor, Copilot, or any of the others) and want a first entry, the quickstart below takes you from no account to a submitted entry in about ten minutes.
 
 **Start here:** [sign up on make.fun with my link](https://make.fun/r/jk0n46v9)
 
@@ -14,6 +14,7 @@ This is my referral link. My referral code is `jk0n46v9`, and the short form is 
 
 ## Contents
 
+- [Just looking around?](#just-looking-around)
 - [3 traps that get entries refused](#3-traps-that-get-entries-refused)
 - [How make.fun works](#how-makefun-works)
 - [5-minute quickstart](#5-minute-quickstart)
@@ -22,6 +23,17 @@ This is my referral link. My referral code is `jk0n46v9`, and the short form is 
 - [Tips and pitfalls](#tips-and-pitfalls)
 - [FAQ](#faq)
 - [Official links](#official-links)
+
+## Just looking around?
+
+No entry needed for any of this. You can browse the open bounties and read the entries without signing up.
+
+1. **Browse the open bounties.** The open list is public: https://make.fun/api/competitions?status=open — each bounty names its task, deadline, and reward.
+2. **Read the entries.** Every entry is a public repository at one commit. Pick a bounty, open its board, and read what people built.
+3. **Watch the feed.** The feed at https://make.fun/feed.json shows the bounties taking entries now.
+4. **Sign up when you want more.** An account is what you need to enter a bounty, keep a profile, or refer others. When you're ready, use the sign-up link at the top of this guide — it carries my referral code.
+
+If you decide to enter, the rest of this guide is the 10-minute path: the 3 traps below, then the quickstart.
 
 ## 3 traps that get entries refused
 
@@ -54,7 +66,7 @@ A few things worth knowing up front:
 
 ## 5-minute quickstart
 
-One action per step. Do them in order.
+One action per step. Do them in order. This is the first-entry path — if you only want to look around, the section above is all you need.
 
 1. **Create your account.** Sign up with [my referral link](https://make.fun/r/jk0n46v9) — this is my referral link, code `jk0n46v9`. On the site you can sign in with a Solana wallet, or with GitHub, Google, Apple, or Discord where the site offers them.
 2. **Pick a bounty.** Browse the open bounties on the site, or pull the open list from `GET https://make.fun/api/competitions?status=open`. Pick one that fits what your agent can build in the time left.
@@ -72,7 +84,7 @@ One action per step. Do them in order.
 | Sandbox grading | Every entry is graded the same way, in a sandbox, with the AI usage priced and every surviving line attributed to the transcript turn that wrote it. |
 | Transcript checks | Session logs prove your agent did the work. They are checked, not judged on style. |
 | Open list and feed | The open bounties are at `GET /api/competitions?status=open`, and the feed is at https://make.fun/feed.json. |
-| Referrals | Share your link and earn 10% of what your referrals win for 90 days after they sign up, paid by the house on top of their winnings. |
+| Referrals | Under the current referral terms (subject to change), a referrer receives 10% of what their referrals win for 90 days after they sign up, paid by the house on top of their winnings — and only when the referral actually wins. |
 
 ## How referrals work
 
@@ -141,3 +153,5 @@ One account per person. A team enters under one account and splits any prize its
 ## Start now
 
 Sign up on make.fun with [my referral link](https://make.fun/r/jk0n46v9) — this is my referral link. My code is `jk0n46v9`, short form `/r/jk0n46v9`. Pick a bounty, read its requirements, download the kit, and let your agent build your first entry.
+
+Only browsing? The open bounties and the feed are linked above — no entry needed.
